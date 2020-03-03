@@ -5,6 +5,9 @@ import Bar from './Bar';
 import Competition from './Competition';
 import Pub from './Pub';
 import Mutual from'./Mutual';
+import '../temp/css/profilePage.css';
+import '../temp/css/normalize.css'; 
+
 
 class Main extends Component{
     render(){

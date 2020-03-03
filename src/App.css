@@ -25,9 +25,9 @@
 }
 .ProBar{ display:flex; flex-direction:row;}
 .bar{ display:flex; 
-  width: 320px;
+  width: 90%;
   padding: 2px;
-  border: 2px solid rgb(12, 10, 10);
+  
   margin: 0;}
   .chart{
     border-left: 3px solid black;

@@ -206,6 +206,7 @@ a:hover {
     text-decoration:none;
 }
 .photoinfo{
+    
     font-family: Ubuntu, sans-serif;   
     text-align: center;
     background-color:#FFE1FE;
@@ -215,16 +216,19 @@ a:hover {
     width: 100%;
 }
 .Photo{
+    flex-direction: left;
     padding-left:0;
     padding-right: 0;
     width:90%;
 }
 .following{
-    padding-left:0;
+    
+    padding-left:px;
     padding-right: 0;
     width: 90%;
 }
 .follower{
+    flex-direction: right;
     padding-left:0;
     padding-right: 0;
     width: 90%;
@@ -241,7 +245,7 @@ a:hover {
     border-left:1px solid black;
 }
 }
-/** for someones page
+
 .followers{
     padding-left:0;
     padding-right: 0;

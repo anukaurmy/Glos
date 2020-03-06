@@ -6,7 +6,7 @@ class ProName extends Component {
     render() {
         return (
             <div class="container-floating profilePortion">
-                <div className="ProBar">>
+                <div className="ProBar">
                     <div class="col-lg-4 col-xl-4 PI">
                         <div className="ProfileImageName">
                             <a href="img1/images-of-man-and-woman-in-love.jpg" className="ProfileImageNam">

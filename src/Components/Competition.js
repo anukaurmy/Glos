@@ -14,13 +14,13 @@ class Competitiong extends Component {
               
             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 imageP">
               
-                            <a href="img1/n1.jpg"><img src={image1} class="img1"  alt='weekly'/></a>
-                            <a href="img1/n2.jpg"><img src={image2} class="img1"  alt='Monthly'/></a>
-                                    <a href="img1/n3.jpg"><img src={image3} class="img1" alt='Compitition'/></a>
-                                        <a href="n4.jpg"><img src={image4} class="img1"  alt='Exibition'/></a>
-                                        <a href="n5.jpg"><img src={image5} class="img1"  alt='Exibition'/></a>
+                            <img src={image1} class="img1"  alt='weekly'/>
+                            <img src={image2} class="img1"  alt='Monthly'/>
+                            <img src={image3} class="img1" alt='Compitition'/>
+                            <img src={image4} class="img1"  alt='Exibition'/>
+                            <img src={image5} class="img1"  alt='Exibition'/>
                                 
-                                        <a href="#" className="AllImage">See all</a>
+                            <a href="see" className="AllImage">See all</a>
                     </div>
                   
                 </div>

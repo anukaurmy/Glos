@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import { render } from '@testing-library/react';
-import Main from './Components/Main'
+//import { render } from '@testing-library/react';
+import Main from './RootComponent/Main'
 
 function App() {
   return (

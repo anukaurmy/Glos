@@ -1,8 +1,18 @@
 import React, { Component } from 'react';
-import image1 from '../temp/badges/Weekly small.png';
-import image2 from '../temp/badges/Monthly small.png';
-import image3 from '../temp/badges/Grand Competition small.png';
-import image4 from '../temp/badges/Exhibition small.png';
+
+
+//------------- Images Link Start -------------------
+
+import Weekly_small from '../../../assets/profile/badges/Weekly_small.png';
+import Monthly_small from '../../../assets/profile/badges/Monthly_small.png';
+import Grand_Competition_small from '../../../assets/profile/badges/Grand_Competition_small.png';
+import Exhibition_small from '../../../assets/profile/badges/Exhibition_small.png';
+
+
+//------------- Images Link End -------------------
+
+
+
 
 class ProReco extends Component {
     render() {
@@ -11,20 +21,18 @@ class ProReco extends Component {
                 <div class="col-md-5 col-lg-4 col-xl-4 RG">
                     <div class="recognition">
                         <h5>Recognition:</h5>
-                        
-                            <a href="badges/Weekly small.png"><img src={image1} class="badges"  alt='weekly'/></a>
-                            <a href="badges/Monthly small.png"><img src={image2} class="badges"  alt='Monthly'/></a>
-                                    <a href="badges/Grand Competition small.png"><img src={image3} class="badges" alt='Compitition'/></a>
-                                        <a href="badges/Exhibition small.png"><img src={image4} class="badges"  alt='Exibition'/></a>
-                                
-                        
+                        <br></br>
+                        <a href="badges/Weekly_small.png"><img src={Weekly_small} class="badges" alt='weekly' /></a>
+                        <a href="badges/Monthly_small.png"><img src={Monthly_small} class="badges" alt='Monthly' /></a>
+                        <a href="badges/Grand_Competition_small.png"><img src={Grand_Competition_small} class="badges" alt='Compitition' /></a>
+                        <a href="badges/Exhibition_small.png"><img src={Exhibition_small} class="badges" alt='Exibition' /></a>
                     </div>
-                  
+
                 </div>
-      
+
             </div>
-                            );
-                        }
-                    }
-                    
+        );
+    }
+}
+
 export default ProReco;

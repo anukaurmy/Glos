@@ -3,17 +3,8 @@ import React, {Component} from 'react';
 //------------ Components Start ------------------
 
 import Landing from '../pages/landing/Landing';
-/*
-import NavCon from './NavCon';
-import Profile from './Profile';
-import Bar from '../pages/profile/components/Bar';
-import Competition from '../pages/profile/components/Competition';
-import Pub from '../pages/profile/components/Pub';
-import Mutual from'../pages/profile/components/Mutual';
-
-import Text from '../pages/profile/components/Text' 
-import Container from './Container';
-*/
+import Competition from '../pages/competition/Competition';
+import Profile from '../pages/profile/Profile';
 
 //------------ Components End ------------------
 
@@ -43,9 +34,27 @@ class Main extends Component{
         return(
             <Router>
                 <div>
+                    <ul>
+                        <li>
+                            <Link to="/">Landing</Link>
+                        </li>
+                        <li>
+                            <Link to="/competition">Competition</Link>
+                        </li>
+                        <li>
+                            <Link to="/profile">Profile</Link>
+                        </li>
+                    </ul>
+                    <hr />
                     <Switch>
                             <Route exact path="/">
                                 <Landing></Landing>
+                            </Route>
+                            <Route path="/competition">
+                                <Competition></Competition>
+                            </Route>
+                            <Route path="/profile">
+                                <Profile></Profile>
                             </Route>
                     </Switch>
                 </div>

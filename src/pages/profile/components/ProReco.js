@@ -22,10 +22,10 @@ class ProReco extends Component {
                     <div class="recognition">
                         <h5>Recognition:</h5>
                         <br></br>
-                        <a href="badges/Weekly_small.png"><img src={Weekly_small} class="badges" alt='weekly' /></a>
-                        <a href="badges/Monthly_small.png"><img src={Monthly_small} class="badges" alt='Monthly' /></a>
-                        <a href="badges/Grand_Competition_small.png"><img src={Grand_Competition_small} class="badges" alt='Compitition' /></a>
-                        <a href="badges/Exhibition_small.png"><img src={Exhibition_small} class="badges" alt='Exibition' /></a>
+                        <a href="#"><img src={Weekly_small} class="badges" alt='weekly' /></a>
+                        <a href="#"><img src={Monthly_small} class="badges" alt='Monthly' /></a>
+                        <a href="#"><img src={Grand_Competition_small} class="badges" alt='Compitition' /></a>
+                        <a href="#"><img src={Exhibition_small} class="badges" alt='Exibition' /></a>
                     </div>
 
                 </div>

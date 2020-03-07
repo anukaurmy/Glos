@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
-import images from './assets/images/S-H.jpg';
+
+
+//------------- Images Link Start -------------------
+
+import images from '../../../assets/competition/images/S-H.jpg';
+
+//------------- Images Link End ----------------------
 
 class PicCOne extends Component {
     render() {

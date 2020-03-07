@@ -34,20 +34,8 @@ class Main extends Component{
         return(
             <Router>
                 <div>
-                    <ul>
-                        <li>
-                            <Link to="/">Landing</Link>
-                        </li>
-                        <li>
-                            <Link to="/competition">Competition</Link>
-                        </li>
-                        <li>
-                            <Link to="/profile">Profile</Link>
-                        </li>
-                    </ul>
-                    <hr />
                     <Switch>
-                            <Route exact path="/">
+                            {/* <Route exact path="/">
                                 <Landing></Landing>
                             </Route>
                             <Route path="/competition">
@@ -55,6 +43,16 @@ class Main extends Component{
                             </Route>
                             <Route path="/profile">
                                 <Profile></Profile>
+                            </Route> */}
+
+                            <Route exact path="/">
+                                <Profile></Profile>
+                            </Route>
+                            <Route path="/competition">
+                                <Competition></Competition>
+                            </Route>
+                            <Route path="/landing">
+                                <Landing></Landing>
                             </Route>
                     </Switch>
                 </div>

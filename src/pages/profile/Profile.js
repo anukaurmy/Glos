@@ -8,16 +8,15 @@ import Bar from './components/Bar';
 import Competition from './components/Competition';
 import Pub from './components/Pub';
 import Mutual from './components/Mutual';
-import Text from './components/Text';
+import Edit from './components/Edit';
 
 //------------ Components End ------------------
 
 
 //----------------- CSS Start-------------------
-
-//import '../../assets/landing/CSS/normalize.css';
-//import '../../assets/landing/CSS/bootstrap.min.css';
-//import '../../assets/landing/CSS/NAV.css';
+import '../../assets/profile/css/normalize.css';
+import '../../assets/profile/css/bootstrap.min.css';
+import '../../assets/profile/css/profilePage.css';
 
 //----------------- CSS End-------------------
 
@@ -31,7 +30,7 @@ class Profile extends Component{
                 <Competition></Competition>
                 <Pub></Pub>
                 <Mutual></Mutual>
-                <Text></Text>
+                <Edit></Edit>
             </div>
         );
     }

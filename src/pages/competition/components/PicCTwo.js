@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
-import images from './assets/images/W-B.jpg';
+
+
+//------------- Images Link Start -------------------
+
+import images from '../../../assets/competition/images/W-B.jpg';
+
+//------------- Images Link End ----------------------
 
 
 class PicCTwo extends Component {

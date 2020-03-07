@@ -10,7 +10,6 @@ import ProName from './ProName';
 
 
 
-
 class Profilesection extends Component{
     render(){
         return(

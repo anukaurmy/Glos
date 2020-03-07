@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
 
-import images from './assets/images/three.jpg'
+//------------- Images Link Start -------------------
 
+import images from '../../../assets/competition/images/three.jpg';
+
+//------------- Images Link End ----------------------
 
 class PicThree extends Component{
     render(){

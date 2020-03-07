@@ -1,0 +1,741 @@
+.logo{
+    width:180px;
+    margin-left:5px;
+    
+}
+.LGC{
+    padding: 0;
+}
+.navLogin{
+   
+    padding: 0;
+}
+button{
+    border: none;
+}
+hr{
+    width:80%;
+    color: black;
+}
+
+.nav-item{
+    margin-right:3%;
+}
+body{
+   font-family: Ubuntu, sans-serif;
+   margin-right: 0;
+}
+
+h1, h2, h3, h4, h5, h6,
+button, input, select, textarea {
+    font-family:  Ubuntu, sans-serif;
+}
+::-webkit-input-placeholder {
+    font-family:  Ubuntu, sans-serif;
+    font-size:.9em;
+}
+:-moz-placeholder {
+    font-family: Ubuntu, sans-serif;
+    font-size:.9em;
+}
+::-moz-placeholder {
+    font-family:  Ubuntu, sans-serif;
+    font-size:.9em;
+}
+:-ms-input-placeholder {
+    font-family: Ubuntu, sans-serif;
+    font-size:.9em;
+}
+.date{
+    font-family: Ubuntu, sans-serif;
+    font-size:.9em;
+}
+
+
+
+
+.row{
+    width: 100%;
+}
+a:visited{
+    color:#640064; 
+}
+a:hover, a:active{
+    color:white; 
+}
+a:hover {
+    text-decoration:none;
+}
+
+.Signup{
+    
+    width: 150px;
+    font-size:1.4em;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom:5%;
+    margin-left: 30%;
+    padding-bottom:33px;
+}
+
+header{
+    width: 100%;
+	background:#640064;
+	padding-top: 5px;
+    margin-right: 5px;
+}
+
+.ForgotPassword{
+    color: white;
+}
+
+header .form-group{
+	margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.form-size{
+    width: 170px;
+    height: 32px;
+    color: gainsboro;
+    border-radius: 7px 7px 7px 7px;
+}
+.login-button{
+    height: 35px;
+    background-color:#32CD32;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.logB{
+    padding: 0;
+}
+
+
+.navbar{
+    padding:0;
+}
+
+.RNM{
+    padding-left:40px; 
+}
+
+
+.navLogin{
+    padding-top: 3px;
+}
+.LG-button{
+    background-color:#640064;
+    border:1px solid white;
+    margin-left: 60%;
+    color:#FFFFFF ;
+}
+.CreateAccount{
+     margin-left: 20%;
+    background-color:#640064;
+     width: 40%;
+    padding:1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color:#640064; 
+    margin-bottom:-10px;
+    color:white ;
+    border-radius: 7px 7px 7px 7px;
+}
+.AccountSignup{
+    margin-left: 16%;
+      width: 180px;
+    background-color: #E2DAD8;
+    border:1px solid #E2DAD8;
+    border-radius: 7px 7px 7px 7px;
+}
+.infocontent{
+    
+    background-color:#E1C8FF;
+    font-size: 1.7em;
+    margin-left: 50px;
+    margin-top: 1%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.Ppart{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.item-1, .item-2, .item-3{
+     display: flex;
+    flex-direction: column;
+}
+.Pimage1{
+  max-width: 200px;
+  max-height: 200px; 
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+.Pimage{
+  max-width: 200px;
+  max-height: 200px; 
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+.ptext{
+    margin-left:0;
+    margin: 2px;
+    padding: 15px;
+    margin-right: 0;
+    background:#E1C8FF;
+    color: black;
+    border-radius: 15px 15px 15px 15px;
+    font-size:1.1em;
+}
+.P2{
+    margin-left:0;
+    margin: 2px;
+    margin-top: 40px;
+    padding: 15px;
+    margin-right: 0;
+    background:#E1C8FF;
+    color: black;
+    border-radius:15px 15px 15px 15px;
+    font-size:1.1em;
+}
+
+.mainfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.footer2ndPart{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.foot{
+   
+    background-color:#E1C8FF;
+
+}
+.footer1{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.footer2{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 4px;
+}
+.footer3{
+    display: inline-flex;
+    flex-direction: column;
+}
+.follow{
+    color:#8B8989;
+    margin-right:5px;
+}
+.DownloadApp{
+    color:#8B8989;
+    margin-right:5px;
+}
+.F1{
+    color:#8B8989;
+    text-decoration: none;
+}
+.con{
+    color:#640064;
+    text-decoration: none;
+}
+.footericons{
+    width: 20px;
+    margin: 1px;
+}
+.footericonsF{
+    width: 8px;
+    margin-left:1px;
+}
+.footericonsIST{
+    width: 15px;
+    margin: 1px;
+}
+.terms{
+    margin-left:20px;
+}
+.TR{
+  color:#8B8989;
+    text-decoration: none;
+    font-size:.7em;
+    margin: 5px;
+}
+.foollowIcons{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+}
+.AppIcons{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+.textcont{
+    margin: 1px;
+    padding: 5px;
+}
+.WordsOfPeople{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 2%;
+}
+.optionOFSignup{
+    text-align: center;
+    width: 80%;
+    margin-bottom:0px;;
+    padding-bottom: 0;
+   font-size: 10;
+}
+.FB-login{
+    height: 35px;
+    width: 85px;
+    text-align: center;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.FB-Signup{
+   width:92%;
+    margin-left: 5px;
+    border-radius: 7px 7px 7px 7px;
+}
+.or{
+   
+    color: white;
+    font-size: 1.18em; 
+}
+.remember{
+    color: white;
+    font-size:0.95em;
+}
+.navigation{
+    display:inline-flex;
+    flex-direction: row;
+}
+.signupPortion{
+    background-image:url(../img1/home-bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+
+.Pimage{
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+h1, h3{
+  text-align: center;
+    color: white;
+
+}
+h1{
+    padding-top: 20%;
+}
+h5{
+    font-weight: normal;
+}
+
+.PopupSignup{
+    margin-left: 30px;
+}
+.signupFrom{
+    width:82.5%;
+    padding: 10px 20px;
+    margin: 4px 0;
+    color: #888;
+    display: inline-block;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.day{
+   width:20%;
+    padding: 10px 10px;
+    margin: 4px 0;
+    color: #888;
+    display: inline-block;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+.month{
+     width:20%;
+    padding: 10px 10px;
+    margin: 4px 0;
+    color: #888;
+    display: inline-block;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+.year{
+     width:40%;
+    padding: 10px 10px;
+    margin: 4px 0;
+    color: #888;
+    display: inline-block;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+.Edit{
+    float: right;
+    text-decoration: none;
+    color: #640064;
+    font-style: normal;
+    font-size:.7em;
+}
+
+
+
+.Popup{
+    width:82.5%;
+    padding: 10px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;   
+}
+.HeaderOfSignup{
+    width: 80%;
+    font-weight: 500;
+}
+.modal-header{
+    height: 10px;
+    border: 0;
+}
+.modal-body{
+    border: 0;
+    background: #E2DAD8;
+}
+.modal-content{
+    position: relative;
+    border-radius: 15px 15px 15px 15px;
+    max-width:420px;
+     background: #E2DAD8;
+}
+.Terms{
+    color: #640064;
+}
+.close {
+  float: right;
+  text-align: right;
+  width: 10px;
+  margin-top: 5px;
+  margin-right: -1px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+}
+
+.container {
+    padding: 16px;
+}
+
+
+
+@media (min-width: 458px){
+    
+    .footer1{
+    flex-direction: row;
+    width: 60%;    
+}
+    .F1{
+        margin-right: 10%;
+        font-size: 100;
+    }
+    .con{
+         margin-right: 10%;
+        font-size: 100%;
+    }
+    
+    .mainfooter{
+    flex-direction:column;
+       
+}
+    
+    .footer2ndPart{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer2{
+     flex-direction:row;
+     width:50%;
+     margin-top:10px;
+     margin-left:22px;    
+    }
+    .footericons{
+        margin-right: 5px;
+    }
+    .footericonsF{
+        margin-right: 5px;
+    }
+    .footericonsIST{
+        margin-right: 5px;
+    }
+    .foollowIcons{
+   
+    justify-content: space-between;
+        width: 20%;
+}
+    
+    .footer3{
+    flex-direction: row;
+    max-width:220px;
+    
+}
+    .AppIcons{
+    justify-content: space-between;
+        width: 25%;
+}
+    .terms{
+    margin-top: 3%;
+}
+    
+    .Signup{
+    margin-left: 35%;
+    
+}
+    
+    
+}
+
+@media(min-width:576px){
+    .LG-button{
+   position: absolute;
+   margin-left: 80%;
+   margin-top: 1.5%;        
+}
+
+}
+@media (min-width: 723px){
+    
+    .logo{
+    width:200px;
+}
+    
+       .item-2{
+    
+    flex-direction:row;
+    justify-content: space-between;
+           
+}
+     .item-1, .item-3{
+    
+    flex-direction:row-reverse;
+    justify-content: space-between;
+
+}
+    .Pimage1{
+        margin-right: 10%;
+    }
+    .ptext{
+        width: 40%;
+        height: 30%;
+        margin-top: 3%;
+        margin-right: 3%;
+        margin-left: 3%;
+        font-size:1.1em;
+    }
+    .P2{
+      width: 40%;
+        height: 30%;
+        margin-top: 3%;
+        margin-right: 3%;
+        margin-left: 3%;
+        font-size:1.1em;
+    }
+    
+
+    .p{
+ font-size: 1.4em;
+ margin: 0;
+    
+    
+}
+    .Signup{
+    
+   
+    margin-left: 40%;
+    
+}
+}
+
+
+@media (min-width: 768px){
+    
+   .ptext{
+        width: 55%;
+    }
+    .P2{
+      width: 55%;
+        
+    }
+    .Pimage1{
+       
+        margin-left: 5%;
+    
+    }
+    
+}
+
+
+@media (min-width: 992px){
+    .ptext{
+      font-size:1.1em;
+    }
+    
+    .P2{
+    font-size:1.1em;
+        
+    }
+     .item-1, .item-2, .item-3{
+    
+    width: 90%;
+
+}
+     .F1{
+        margin-right: 5%;
+       
+    }
+    .con{
+        margin-right: 5%;
+       
+    }
+    
+     .footer2{
+    margin-left: 25px;    
+}
+    .terms{
+    margin-left: 25px;
+}
+    .Signup{
+    
+   
+    margin-left: 42%;
+    
+}
+}
+@media (min-width: 1006px){
+    .logo{
+    width:220px;
+}
+    .email{
+    margin-left:20px;
+}
+    .RNM{
+    margin-left:0px;
+        padding-left: 0;
+    
+}
+
+    
+    .p{
+ font-size: 1.4em;
+ margin: 0;
+}
+     
+     
+    .Pimage1{
+        margin-right: 8%;
+    }
+     .Pimage{
+        margin-right: 8%;
+    }
+    .ptext{
+        max-width: 50%;
+    }
+    .P2{
+         max-width: 50%;
+    }
+    
+    
+  .footer2{
+    margin-left: 30px; 
+    } 
+    
+.terms{
+    margin-left: 30px;
+}
+    .Signup{
+    
+   
+    margin-left: 43%;
+    
+}
+}
+@media (min-width: 1200px){
+    
+    .email{
+    margin-left:1px;
+}
+    
+}
+
+@media (min-width: 1220px){
+    
+    .email{
+    margin-left:10px;
+}
+    
+}
+
+@media (min-width: 1243px){
+    
+    .email{
+    margin-left:18px;
+}
+    
+}
+
+@media (min-width: 1265px){
+    
+    .email{
+    margin-left:28px;
+}
+    
+}
+
+
+
+@media (min-width: 1290px){
+    
+    .email{
+    margin-left:38px;
+}
+    
+}
+
+
+
+@media (min-width:1301px){
+    .email{
+    margin-left:40px;
+}
+}
+    @media (min-width:1345px){
+    .email{
+    margin-left:65px;
+}
+}
+
